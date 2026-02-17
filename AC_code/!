@@ -1,0 +1,26 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2017 The MathWorks, Inc.
+                   R2017b (9.3.0.713579) 64-bit (glnxa64)
+                             September 14, 2017
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+
+ Started subject 10015 run 1 
+{Operation terminated by user during xcorr>scaleXcorr
+
+
+In xcorr (line 178)
+        c1 = scaleXcorr(varargin{scaleIdx},c1,x);
+
+In AC_generator (line 43)
+                at = xcorr(Sig,L,'unbiased');
+
+In AC_Runner_WholeBrain (line 73)
+[Map,Clusters] = AC_generator(func,ROI_mask,L,TR);
+} 
+
+>> 
